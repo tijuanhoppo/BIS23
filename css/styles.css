@@ -258,6 +258,7 @@ div p{
   .container{
     width:100%;
     display:block; 
+    align-items: center;
   
     
   

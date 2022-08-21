@@ -270,7 +270,6 @@ div p{
   .Chicken{
      border: 1px solid #222;
   margin:10px; 
- width: 100%;
    position:relative;
     
   }
@@ -289,7 +288,6 @@ div p{
   .Beef{
   border: 1px solid #222;
   margin:10px;
-    width:100%;
     position:relative;
  
    
@@ -316,7 +314,7 @@ div p{
   border: 1px solid #222;
     display:block;
     position:relative;
-    width:100%;
+   
    
    
     

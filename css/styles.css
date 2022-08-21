@@ -258,7 +258,6 @@ div p{
   .container{
     width:100%;
     display:block; 
-    margin: 0 auto;
   
     
   
@@ -312,7 +311,7 @@ div p{
   border: 1px solid #222;
     display:block;
     position:relative;
-    width:80vh;
+  
    
    
    

@@ -100,6 +100,7 @@ div p{
   margin:10px; 
   position: relative;
     font-weight:bold;
+     background:#959595;
 
   }
   
@@ -137,6 +138,7 @@ div p{
   .Sushi{
   border: 1px solid #222;
   margin:10px;
+     background:#959595;
 }
   
   .Sushi .Sushi-headline{

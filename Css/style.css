@@ -1,1 +1,348 @@
+*{
+  box-sizing:border-box;
+}
 
+/* Css for the h1*/
+h1{
+  text-align:center;
+}
+/* Css for the container div*/
+.container{
+  width:100%;
+  position:relative;
+  display:flex;
+  justify-content: space-between;
+
+  
+}
+
+.Chicken .Chicken-headline{
+  border:1px solid black;
+  width:145px;
+  background: pink;
+  text-align:center;
+  float:right;
+  
+  
+  
+}
+div p{
+  position:relative;
+  clear:both;
+  text-align:center;
+}
+
+
+.Beef .Beef-headline{
+  border:1px solid black;
+  width:145px;
+  background: red;
+  text-align:center;
+  float:right;
+  color:#fff;
+  
+  
+}
+
+
+.Sushi .Sushi-headline{
+  border:1px solid black;
+  width:145px;
+  background: yellow;
+  text-align:center;
+  float:right;
+  position:relative;
+  clear:left;
+
+  
+  
+}
+
+
+/* Css for the chicken div*/
+
+.Chicken{
+  border: 1px solid #222;
+  margin:10px; 
+  position: relative;
+
+}
+
+/* Css for the Beef div*/
+.Beef{
+  border: 1px solid #222;
+  margin:10px;
+}
+
+/* Css for the Sushi div*/
+.Sushi{
+  border: 1px solid #222;
+  margin:10px;
+}
+
+
+@media (min-width: 992px){
+  .container{
+  width:100%;
+  position:relative;
+  display:flex;
+  justify-content: space-between;
+
+  
+}
+  
+  h1{
+    text-align:center;
+  }
+  .Chicken{
+     border: 1px solid #222;
+  margin:10px; 
+  position: relative;
+
+  }
+  
+  .Chicken .Chicken-headline{
+  border:1px solid black;
+  width:145px;
+  background: pink;
+  text-align:center;
+  float:right;
+  
+  
+  
+}
+  
+  .Beef{
+  border: 1px solid #222;
+  margin:10px;
+}
+  
+  .Beef .Beef-headline{
+  border:1px solid black;
+  width:145px;
+  background: red;
+  text-align:center;
+  float:right;
+  color:#fff;
+  
+  
+  
+}
+  
+  .Sushi{
+  border: 1px solid #222;
+  margin:10px;
+}
+  
+  .Sushi .Sushi-headline{
+  border:1px solid black;
+  width:145px;
+  background: yellow;
+  text-align:center;
+  float:right;
+  position:relative;
+  clear:left;
+
+  
+  
+}
+  
+  div p{
+  position:relative;
+  clear:both;
+  text-align:center;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  
+  .container{
+    width:100%;
+    display:block; 
+  
+    
+  
+}
+  
+   h1{
+    text-align:center;
+  }
+  .Chicken{
+     border: 1px solid #222;
+  margin:10px; 
+ width: 450px;
+   position:relative;
+  float:left;
+    
+  }
+  
+  .Chicken .Chicken-headline{
+  border:1px solid black;
+  width:145px;
+  background: pink;
+  text-align:center;
+  float:right;
+  
+  
+  
+}
+  
+  .Beef{
+  border: 1px solid #222;
+  margin:10px;
+    width:450px;
+    position:relative;
+    float:right;
+   
+    
+   
+    
+   
+ 
+
+}
+  
+  .Beef .Beef-headline{
+  border:1px solid black;
+  width:145px;
+  background: red;
+  text-align:center;
+  color:#fff;
+  
+  
+  
+}
+  
+  .Sushi{
+  border: 1px solid #222;
+    display:block;
+    position:relative;
+    
+    clear:right;
+   
+    
+   
+    
+    
+}
+  
+  .Sushi .Sushi-headline{
+  border:1px solid black;
+  width:145px;
+  background: yellow;
+  text-align:center;
+  float:right;
+  position:relative;
+  clear:left;
+
+  
+  
+}
+  
+  div p{
+  position:relative;
+  clear:both;
+  text-align:center;
+}
+  
+  
+  
+  
+  
+  
+  
+}
+
+@media (max-width: 768px){
+  .container{
+    width:100%;
+    display:block; 
+    margin: 0 auto;
+  
+    
+  
+}
+  
+   h1{
+    text-align:center;
+  }
+  .Chicken{
+     border: 1px solid #222;
+  margin:10px; 
+ width: 450px;
+   position:relative;
+    
+  }
+  
+  .Chicken .Chicken-headline{
+  border:1px solid black;
+  width:145px;
+  background: pink;
+  text-align:center;
+  float:right;
+  
+  
+  
+}
+  
+  .Beef{
+  border: 1px solid #222;
+  margin:10px;
+    width:450px;
+    position:relative;
+ 
+   
+    
+   
+    
+   
+ 
+
+}
+  
+  .Beef .Beef-headline{
+  border:1px solid black;
+  width:145px;
+  background: red;
+  text-align:center;
+  color:#fff;
+  
+  
+  
+}
+  
+  .Sushi{
+  border: 1px solid #222;
+    display:block;
+    position:relative;
+    width:450px;
+   
+   
+    
+   
+    
+    
+}
+  
+  .Sushi .Sushi-headline{
+  border:1px solid black;
+  width:145px;
+  background: yellow;
+  text-align:center;
+  float:right;
+  position:relative;
+  clear:left;
+
+  
+  
+}
+  
+  div p{
+  position:relative;
+  clear:both;
+  text-align:center;
+}
+  
+  
+}
